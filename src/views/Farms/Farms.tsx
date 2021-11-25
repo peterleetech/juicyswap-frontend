@@ -27,8 +27,8 @@ const Farms: React.FC = () => {
             <Route exact path={path}>
               <PageHeader
                 icon={<img src={logo} height="120" />}
-                subtitle="Earn JUICY tokens by staking JuicySwap SLP Tokens. Note: Current APY does not include 2/3rd SUSHI emission that is locked and will be retroactively disbursed at a later date."
-                title="Select Your Favorite Juices"
+                subtitle="Earn BENTO tokens by staking BentoSwap SLP Tokens. Note: Current APY does not include 2/3rd SUSHI emission that is locked and will be retroactively disbursed at a later date."
+                title="Select Your Favorite Bentos"
               />
               <FarmCards />
             </Route>

@@ -8,7 +8,7 @@ const Nav: React.FC = () => {
         target="_blank"
         href="#"
       >
-        JuiceMaster Contract
+        BentoMaster Contract
       </StyledLink>
       {/*<StyledLink
         target="_blank"
