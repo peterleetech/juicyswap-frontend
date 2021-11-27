@@ -458,20 +458,24 @@ SLP Address on mainnet for reference
 
 // BENTOSWAP SETTINGS
 
-export const CHAIN_ID = 4
+export const CHAIN_ID = 97
 
 export const contractAddresses = {
   sushi: {
     4: '0x5a7E2Af47e306974336bB01164C6854e625DE7CC',
+    97: '0xBD79299ADBF6bf36f9B922B1F667DA5637dC7676'
   },
   masterChef: {
     4: '0x84001Fe17F391DE79Aa6458EFC05e79827Dbc4E8',
+    97: '0xbA7526d4D104DFdc42ce196e122f776c2Cfb3657'
   },
   weth: {
     4: '0xc778417e063141139fce010982780140aa0cd5ab',
+    97: '0xae13d989dac2f0debff460ac112a837c89baa7cd' // WBNB
   },
   xSushi: {
-    4: '0x8798249c2e607446efb7ad49ec89dd1865ff4272' // NOTE: Not in use
+    4: '0x8798249c2e607446efb7ad49ec89dd1865ff4272', // NOTE: Not in use
+    97: '0xae13d989dac2f0debff460ac112a837c89baa7cd'
   }
 }
 
@@ -482,9 +486,11 @@ export const supportedPools = [
     pid: 0,
     lpAddresses: {
       4: '0xc36442b4a4522e871399cd717abdd847ab11fe88', // LP Token Address
+      97: '0xe0e92035077c39594793e61802a350347c320cf2' // BUSD-BNB LP
     },
     tokenAddresses: {
       4: '0x5592ec0cfb4dbc12d3ab100b257153436a1f0fea', // Token, i.e. "DAI"
+      97: '0x78867bbeef44f2326bf8ddd1941a4439382ef2a7' // BUSD
     },
     name: 'Bento Party!',
     symbol: 'DAI-ETH LP',
